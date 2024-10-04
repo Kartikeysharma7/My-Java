@@ -1,4 +1,4 @@
-class Palindrome {
+Public class Palindrome {
     public static void main(String[] args) {
   
       String str = "Kartikey", reverseStr = "";
