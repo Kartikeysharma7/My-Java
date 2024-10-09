@@ -5,13 +5,13 @@ public class Armstrong {
         int r;
         int temp = number;
         int  k = 0;
-        int p = 1;
         while(temp != 0){
             temp = temp / 10;
             k++;
         }
         while(number != 0){
             r = number %10;
+            int p = 1;
             for(int i=1;i<=k;i++){
                 p = p*r;
                 
